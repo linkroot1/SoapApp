@@ -31,13 +31,6 @@ public class SoapEndpoint {
             throw new Exception("Exception in soap application");
         }
 
-
-//        String dateFormat = "yyyy-MM-dd HH:mm:ss";
-//
-//        ObjectMapper xmlMapper = new XmlMapper();
-//        xmlMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
-//        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
-
         return response;
     }
 }

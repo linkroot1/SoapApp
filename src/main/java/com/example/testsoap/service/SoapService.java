@@ -1,7 +1,5 @@
 package com.example.testsoap.service;
 
-
-
 import org.springframework.stereotype.Service;
 
 import javax.xml.transform.*;
