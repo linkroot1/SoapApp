@@ -1,2 +1,3 @@
 # Rest + Soap (Soap)
-Описание работы в README.md Rest
+Для сборки необходима Java 8 версии
+
