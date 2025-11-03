@@ -13,7 +13,7 @@ public class SoapService {
 
         TransformerFactory factory = TransformerFactory.newInstance();
 
-        try(InputStream is = getClass().getClassLoader().getResourceAsStream("RulesXsl.xsl")) {
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("RulesXsl.xsl")) {
             Source xslt = new StreamSource(is);
 
             Transformer transformer = factory.newTransformer(xslt);

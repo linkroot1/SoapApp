@@ -9,5 +9,4 @@ class TestSoapApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
